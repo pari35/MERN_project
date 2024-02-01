@@ -13,8 +13,8 @@ process.on("uncaught error exception", (err) => {
         process.exit(0)
     })
 })
-
-const server = app.listen(4000, () => {
+console.log("envv port", process.env.PORT)
+const server = app.listen(process.env.PORT, () => {
     console.log('server is working on port');
 })
 
