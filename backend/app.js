@@ -8,9 +8,12 @@ const bodyParser = require('body-parser')
 const fileUpload = require('express-fileupload')
 const path = require("path");
 
+app.use(cors({
+  origin : 'https://citybazar.onrender.com/'
+  // origin : 'http://localhost:4000/' 
+}))
 app.use(express.json())
 app.use(cookieParser())
-app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(fileUpload())
 app.get('/about', (req, resp) => {
