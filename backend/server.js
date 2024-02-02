@@ -3,7 +3,8 @@ const dotenv = require("dotenv");
 const connectDatabase = require("./config/database");
 dotenv.config({ path: "backend/config/config.env" })
 const cloudinary = require('cloudinary')
-
+const cors = require('cors')
+app.use(cors())
 connectDatabase()
 //handling uncaught exception
 process.on("uncaught error exception", (err) => {
