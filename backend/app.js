@@ -9,7 +9,10 @@ const fileUpload = require('express-fileupload')
 const path = require("path");
 
 app.use(cors({
-  origin : 'https://citybazar.onrender.com/'
+  origin : [
+    'https://citybazar.onrender.com/',
+    "https://jovial-cocada-b9c8c8.netlify.app/"
+  ]
   // origin : 'http://localhost:4000/' 
 }))
 app.use(express.json())
