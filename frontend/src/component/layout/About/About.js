@@ -16,18 +16,17 @@ const About = () => {
 
         <div>
           <div>
-            <Avatar
+            {/* <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
               src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
               alt="Founder"
-            />
-            <Typography>Abhishek Singh</Typography>
+            /> */}
+            <Typography>Paritosh</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a sample wesbite made by Paritosh to learn MERN stack
             </span>
           </div>
           <div className="aboutSectionContainer2">

@@ -26,20 +26,12 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a sample Ecommerce site to learn MERN Stack
             </span>
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
-            <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
-              target="blank"
-            >
-              <YouTubeIcon className="youtubeSvgIcon" />
-            </a>
-
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://instagram.com/paritoshsp35" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

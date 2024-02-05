@@ -118,7 +118,7 @@ function App() {
 
         <ProtectedRoute exact path="/order/:id" component={OrderDetails} />
 
-           <ProtectedRoute
+           <Route
           isAdmin={true}
           exact
           path="/admin/dashboard"
@@ -159,7 +159,7 @@ function App() {
         <ProtectedRoute
           exact
           path="/admin/users"
-          isAdmin={true}
+          // isAdmin={true}
           component={UsersList}
         />
 
